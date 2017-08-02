@@ -13,12 +13,13 @@ docker build -t rawmind/alpine-sysctl:<version> .
 
 ## Versions
 
-- `0.1` [(Dockerfile)](https://github.com/rawmind0/alpine-sysctl/blob/0.1/Dockerfile).
+- `0.1-1` [(Dockerfile)](https://github.com/rawmind0/alpine-sysctl/blob/0.1-1/Dockerfile).
 
 ## Env variables
 
 - SYSCTL_KEY=""        	# Mandatory: Set sysctl key.
 - SYSCTL_VALUE=0        # Mandatory: Set sysctl key desired value.
+- SYSCTL_FORCE=0        # Set to 1 to force sysctl overwrite key value.
 - KEEP_ALIVE="0"        # Set to 1 to keep container alive. (to run in k8s)
 
 ## Usage
