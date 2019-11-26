@@ -13,6 +13,7 @@ docker build -t rawmind/alpine-sysctl:<version> .
 
 ## Versions
 
+- `0.2-1` [(Dockerfile)](https://github.com/rawmind0/alpine-sysctl/blob/0.2-1/Dockerfile).
 - `0.1-1` [(Dockerfile)](https://github.com/rawmind0/alpine-sysctl/blob/0.1-1/Dockerfile).
 
 ## Env variables
